@@ -20,14 +20,14 @@ if (empty($department) || empty($city)) {
 ?>
 
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="uk">
 
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
 <head>
 
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Поздравляем! Ваш заказ принят!</title>
+    <title>Вітаємо! Ваше замовлення прийнято!</title>
 <style type="text/css">
 
             body {
@@ -108,13 +108,13 @@ if (empty($department) || empty($city)) {
 <body>
 
 <div class="block_success">
-<h2 style="text-transform: uppercase;">Поздравляем! Ваш заказ принят!</h2>
-<p class="success"> В ближайшее время с вами свяжется оператор для подтверждения заказа. Пожалуйста, включите ваш контактный телефон. </p>
-<h3 class="success"> Пожалуйста, проверьте правильность введенной Вами информации. </h3>
+<h2 style="text-transform: uppercase;">Вітаємо! Ваше замовлення прийнято!!</h2>
+<!-- <p class="success"> В ближайшее время с вами свяжется оператор для подтверждения заказа. Пожалуйста, включите ваш контактный телефон. </p> -->
+<h3 class="success"> Будь ласка, перевірте правильність введеної Вами інформації. </h3>
 <div class="success">
 <ul class="list_info">
 <li>
-<span>Имя: </span>
+<span>Ім'я: </span>
 <span id="client"><?=$name ?></span>
 </li>
 <li>
@@ -130,11 +130,11 @@ if (empty($department) || empty($city)) {
 <span id="cart"><?=$cart ?></span>
 </li>
 <li id="city">
-<span>Город: </span>
+<span>Місто: </span>
 <span id="city"><?=$city ?></span>
 </li>
 <li id="department">
-<span>Отделение: </span>
+<span>Відділення: </span>
 <span id="department"><?=$department ?></span>
 </li>
 <li>
@@ -147,8 +147,8 @@ if (empty($department) || empty($city)) {
 <span id="submit"></span>
 </div>
 <p class="fail success">
-Если вы ошиблись при заполнени формы, то, пожалуйста,
-<a href="javascript: history.back(-1);">заполните заявку еще раз</a>
+Якщо ви помилилися при заповненні форми, то, будь ласка,
+<a href="javascript: history.back(-1);">заповніть форму ще раз</a>
 </p>
 </div>
 
