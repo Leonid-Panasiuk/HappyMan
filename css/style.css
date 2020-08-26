@@ -1090,4 +1090,12 @@ select:focus {
     .icons-container img {
         width: 30px;
     }
+
+    .additionally img {
+        width: 70px;
+    }
+
+    .additionally p {
+        font-size: 14px;
+    }
 }
