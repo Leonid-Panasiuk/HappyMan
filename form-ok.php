@@ -4,6 +4,19 @@ $phone = $_GET['phone'];
 $cart = $_GET['cart'];
 $delivery = $_GET['delivery'];
 $payment = $_GET['payment'];
+$department = $_GET['department'];
+$city = $_GET['city'];
+$course = $_GET['course'];
+
+
+if (empty($department) || empty($city)) {
+    ?>
+    <style type="text/css">#city, #department{
+    display:none;
+}   </style>
+<?php
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -109,8 +122,20 @@ $payment = $_GET['payment'];
 <span id="tel"><?=$phone ?></span>
 </li>
 <li>
+<span>Курс: </span>
+<span id="course"><?=$course ?></span>
+</li>
+<li>
 <span>Доставка: </span>
 <span id="cart"><?=$cart ?></span>
+</li>
+<li id="city">
+<span>Город: </span>
+<span id="city"><?=$city ?></span>
+</li>
+<li id="department">
+<span>Отделение: </span>
+<span id="department"><?=$department ?></span>
 </li>
 <li>
 <span>Оплата: </span>
