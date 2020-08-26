@@ -656,6 +656,12 @@ a {
     word-spacing: -2px;
 }
 
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .card-btn {
     background-color: #3665A4 !important;
     display: flex !important;
@@ -1008,6 +1014,18 @@ select:focus {
 
     #pricing h4 {
         font-size: 30px;
+    }
+
+    .card-group h5:first-child {
+        font-size: 35px;
+    }
+
+    .card-group h5 {
+        font-size: 30px;
+    }
+
+    .card-group p {
+        font-size: 14px;
     }
 
     #contacts {
