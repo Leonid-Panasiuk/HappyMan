@@ -700,11 +700,11 @@ a {
     padding: 60px 60px;
 }
 
-#contacts h4 {
+/* #contacts h4 {
     font-size: 40px;
     text-align: center;
     margin-bottom: 35px;
-}
+} */
 
 .container-contact {
     display: flex;
@@ -713,6 +713,7 @@ a {
     background: #fff;
     padding: 40px 40px;
     border-radius: 10px;
+    margin-top: 50px;
 }
 
 .icons-container img {
