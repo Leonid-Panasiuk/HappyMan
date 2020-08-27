@@ -1002,7 +1002,7 @@ select:focus {
     }
 
     .reception-cols-wrap {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .reception-cols-left,
