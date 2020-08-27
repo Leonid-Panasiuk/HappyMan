@@ -729,6 +729,12 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    z-index: 1;
+}
+
+.fa-circle {
+    margin: 10px 0;
+    z-index: 100;
 }
 
 
@@ -737,10 +743,6 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-}
-
-.fa-circle {
-    margin: 10px 0;
 }
 
 
