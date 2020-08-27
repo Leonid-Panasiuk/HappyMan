@@ -19,8 +19,5 @@
          Оплата: $payment\n 
          Курс: $course\n";
 
-
-         echo '<h1 style="color:green;">Вітаємо! Ваше замовлення прийнято!</h1>';
-        
         mail($to, $subject, $message); ?>
 
