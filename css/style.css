@@ -414,6 +414,14 @@ a {
 .first-target {
     background-image: url(../img/target-item-1.png);
     background-color: #fff;
+    position: relative;
+}
+
+.first-target img , .second-target img, .third-target img {
+    position: absolute;
+    width: 160px;
+    left: -10px;
+    bottom: -11px;
 }
 
 .first-target::before,
