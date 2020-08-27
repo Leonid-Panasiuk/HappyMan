@@ -733,7 +733,7 @@ a {
 }
 
 .fa-circle {
-    margin: 10px 0;
+    margin: 10px 10px;
     z-index: 100;
 }
 
@@ -1058,12 +1058,12 @@ select:focus {
     }
 
     .icons-container img {
-        width: 35px;
+        width: 30px;
     }
 
     .circle {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
     }
 
     .form-send {
