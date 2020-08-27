@@ -514,8 +514,18 @@ a {
     list-style: none;
 }
 
+.ingridients-item {
+    position: relative;
+}
+
 .ingridients-list img {
     width: 100px;
+}
+
+.rotate {
+    position: absolute;
+    width: 210px!important;
+    top: -23px;
 }
 
 .ingridient-center img {
@@ -534,6 +544,7 @@ a {
     align-items: center;
     margin-bottom: 15px;
     margin-top: 10px;
+    position: relative;
 }
 
 .ingridients-list li img {
