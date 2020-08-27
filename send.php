@@ -2,7 +2,6 @@
 $name = stripslashes(htmlspecialchars($_POST['name']));
 $phone = stripslashes(htmlspecialchars($_POST['phone']));
 $cart = stripslashes(htmlspecialchars($_POST['cart']));
-$delivery = stripslashes(htmlspecialchars($_POST['delivery']));
 $payment = stripslashes(htmlspecialchars($_POST['payment']));
 $department = stripslashes(htmlspecialchars($_POST['department']));
 $city = stripslashes(htmlspecialchars($_POST['city']));
@@ -22,7 +21,6 @@ if(empty($city) || empty($department)) {
     $success_url = './form-ok.php?name='.$_POST['name'].
     '&phone='.$_POST['phone'].
     '&cart='.$_POST['cart'].
-    '&delivery='.$_POST['delivery'].
     '&payment='.$_POST['payment'].
     '&course='.$_POST['course'];
     
@@ -60,7 +58,6 @@ $addressat = "lona.panasuk@gmail.com";
 $success_url = './form-ok.php?name='.$_POST['name'].
 '&phone='.$_POST['phone'].
 '&cart='.$_POST['cart'].
-'&delivery='.$_POST['delivery'].
 '&payment='.$_POST['payment'].
 '&department='.$_POST['department'].
 '&city='.$_POST['city'].

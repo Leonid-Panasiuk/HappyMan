@@ -2,7 +2,6 @@
 $name = $_GET['name'];
 $phone = $_GET['phone'];
 $cart = $_GET['cart'];
-$delivery = $_GET['delivery'];
 $payment = $_GET['payment'];
 $department = $_GET['department'];
 $city = $_GET['city'];
@@ -109,7 +108,6 @@ if (empty($department) || empty($city)) {
 
 <div class="block_success">
 <h2 style="text-transform: uppercase;">Вітаємо! Ваше замовлення прийнято!!</h2>
-<!-- <p class="success"> В ближайшее время с вами свяжется оператор для подтверждения заказа. Пожалуйста, включите ваш контактный телефон. </p> -->
 <h3 class="success"> Будь ласка, перевірте правильність введеної Вами інформації. </h3>
 <div class="success">
 <ul class="list_info">
