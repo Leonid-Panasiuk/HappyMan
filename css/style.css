@@ -417,10 +417,22 @@ a {
     position: relative;
 }
 
+.second-target {
+    background-image: url(../img/target-item-2.png);
+    background-color: #fff;
+}
+
+.third-target {
+    background-image: url(../img/target-item-3.png);
+    background-color: #fff;
+}
+
+
+
 .first-target img , .second-target img, .third-target img {
     position: absolute;
     width: 160px;
-    left: -10px;
+    left: -12px;
     bottom: -11px;
 }
 
@@ -436,16 +448,6 @@ a {
     bottom: 5px;
     border: 3px solid #082A58;
     border-radius: 50%;
-}
-
-.second-target {
-    background-image: url(../img/target-item-2.png);
-    background-color: #fff;
-}
-
-.third-target {
-    background-image: url(../img/target-item-3.png);
-    background-color: #fff;
 }
 
 
