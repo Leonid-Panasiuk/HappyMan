@@ -496,7 +496,7 @@
     </section>
     <!-- /* <------------- Contacts ------------->
     <section id="contacts">
-        <div class="container mt-3 text-center">
+        <div class="container mt-3 text-center wow bounceInLeft">
             <b>Замовлення</b>
             <p>
                 Можна оформити замовлення по телефону,через сайт, або додатки Viber/Telegram.</p>
@@ -510,62 +510,62 @@
         <!-- <h4 class="wow bounceInUp">Замовлення через сайт або додатки вайбер/телеграм</h4> -->
         <div class="container-contact">
             <div class="icons-container">
-                <div class="circle wow bounceIn" data-wow-duration="1s">
+                <div class="circle  wow bounceInLeft" data-wow-duration="1s">
                     <img src="img/shopping-cart.jpg" alt="cart">
                 </div>
-                <i class="fas fa-circle wow bounceInUp" data-wow-duration="2s"></i>
-                <div class="circle wow bounceIn" data-wow-duration="2s">
+                <i class="fas fa-circle wow flip" data-wow-duration="2s"></i>
+                <div class="circle wow bounceInLeft" data-wow-duration="2s">
                     <img src="img/box.jpg" alt="box">
                 </div>
-                <i class="fas fa-circle wow bounceInUp" data-wow-duration="2.5s"></i>
-                <div class="circle wow bounceIn" data-wow-duration="2.5s">
+                <i class="fas fa-circle wow flip" data-wow-duration="3s"></i>
+                <div class="circle wow bounceInLeft" data-wow-duration="3s">
                     <img src="img/truck.jpg" alt="truck">
                 </div>
-                <i class="fas fa-circle wow bounceInUp" data-wow-duration="3s"></i>
-                <div class="circle wow bounceIn" data-wow-duration="3s">
+                <i class="fas fa-circle wow flip" data-wow-duration="4s"></i>
+                <div class="circle wow bounceInLeft" data-wow-duration="4s">
                     <img src="img/home.jpg" alt="home">
                 </div>
             </div>
 
             <form action="send.php" method="post" class="form-send">
-                <div class="form-group">
-                    <label class="wow bounceInUp" data-wow-duration="1.5s">Контактна особа</label>
-                    <input name="name" type="text" class="form-control wow bounceInRight" data-wow-duration="1.5s"
+                <div class="form-group wow bounceInRight" data-wow-duration="1s">
+                    <label>Контактна особа</label>
+                    <input name="name" type="text" class="form-control"
                         placeholder="Введіть П.І.Б" autocomplete="off" required>
                 </div>
-                <div class="form-group">
-                    <input name="phone" type="tel" class="form-control wow bounceInRight" data-wow-duration="1.5s"
+                <div class="form-group wow bounceInRight" data-wow-duration="1.5s">
+                    <input name="phone" type="tel" class="form-control"
                         placeholder="Номер телефону" autocomplete="off" required>
                 </div>
-                <div class="form-group">
-                    <label class="wow bounceInUp" data-wow-duration="2s">Курс</label>
-                    <select name="course" class="wow bounceInRight" data-wow-duration="2s">
+                <div class="form-group wow bounceInRight" data-wow-duration="2s">
+                    <label>Курс</label>
+                    <select name="course">
                         <option>Перший курс</option>
                         <option>Другий курс</option>
                         <option>Третій курс</option>
                     </select>
                 </div>
-                <div class="form-group">
-                    <label class="wow bounceInUp" data-wow-duration="2s">Доставка</label>
-                    <select id="graph_select" name="cart" class="wow bounceInRight" data-wow-duration="2s">
+                <div class="form-group wow bounceInRight" data-wow-duration="2.5s">
+                    <label>Доставка</label>
+                    <select id="graph_select" name="cart">
                         <option>Нова пошта</option>
                         <option id="new-post">Інша доставка</option>
                     </select>
                 </div>
-                <div class="form-group show-form">
-                    <input name="city" type="text" class="form-control wow bounceInRight" data-wow-duration="2s"
+                <div class="form-group show-form wow bounceInRight" data-wow-duration="3s">
+                    <input name="city" type="text" class="form-control"
                         placeholder="Місто" autocomplete="off"><br>
-                    <input name="department" type="text" class="form-control wow bounceInRight" data-wow-duration="2s"
+                    <input name="department" type="text" class="form-control"
                         placeholder="Номер відділення" autocomplete="off">
                 </div>
-                <div class="form-group">
-                    <label class="wow bounceInUp" data-wow-duration="3s">Оплата</label>
-                    <select name="payment" class="wow bounceInRight" data-wow-duration="3s">
+                <div class="form-group wow bounceInRight" data-wow-duration="3.5s">
+                    <label>Оплата</label>
+                    <select name="payment">
                         <option>На картку</option>
                         <option>Накладний платіж</option>
                     </select>
                 </div>
-                <button type="submit" class="form-btn wow bounceInUp">
+                <button type="submit" class="form-btn wow bounceInRight" data-wow-duration="4s">
                     <span>
                         Надіслати
                         <i class="fas fa-long-arrow-alt-right"></i>
