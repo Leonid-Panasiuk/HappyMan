@@ -522,10 +522,12 @@ a {
     width: 100px;
 }
 
-.rotate {
-    position: absolute;
-    width: 210px!important;
-    top: -23px;
+
+.ingridient-center img {
+    border: 3px solid #082A58;
+    position: relative;
+    border-radius: 50%;
+    padding: 4px;
 }
 
 .ingridient-center img {
@@ -549,6 +551,10 @@ a {
 
 .ingridients-list li img {
     margin-bottom: 10px;
+    border: 3px solid #082A58;
+    position: relative;
+    border-radius: 50%;
+    padding: 4px;
 }
 
 .ingridients-list button,
