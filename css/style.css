@@ -896,7 +896,7 @@ select:focus {
     .pc-teleg,
     .pc-viber,
     .pc-facebook,
-    .pc-instagram
+    .pc-instagram,
     .pc-lang {
         display: none !important;
     }
