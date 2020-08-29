@@ -7,17 +7,29 @@
         $city = $_POST['city'];
         $course = $_POST['course'];
         $from = 'From: HappyMan'; 
-        $to = '380974682460@ya.ru'; // send to this address
+        $to = 'lona.panasuk@gmail.com'; // send to this address
         $subject = 'HappyMan'; //subject line in email
         $success_url = './form-ok.php';
 
-         $message = "Від: $name\n
-         Телефон: $phone\n 
-         Доставка: $cart\n 
-         Місто:$city\n
-         Відділення: $department\n
-         Оплата: $payment\n 
-         Курс: $course\n";
+        if (empty($city) || empty($department)) {
+                $message = "Від: $name\n
+                Телефон: $phone\n 
+                Доставка: $cart\n 
+                Курс: $course\n
+                Оплата: $payment\n";
+                echo '<h1 style="color:green;">Вітаємо! Ваше замовлення прийнято!</h1>';
+        } else {
+                $message = "Від: $name\n
+                Телефон: $phone\n 
+                Доставка: $cart\n 
+                Місто:$city\n
+                Відділення: $department\n
+                Курс: $course\n
+                Оплата: $payment\n";
+                echo '<h1 style="color:green;">Вітаємо! Ваше замовлення прийнято!</h1>';
+        }
+
+         
 
         mail($to, $subject, $message); ?>
 
