@@ -432,7 +432,7 @@ a {
 .first-target img , .second-target img, .third-target img {
     position: absolute;
     width: 160px;
-    left: -12px;
+    left: -11px;
     bottom: -11px;
 }
 
