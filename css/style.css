@@ -520,6 +520,7 @@ a {
 
 .ingridients-list img {
     width: 100px;
+    height: 100px;
 }
 
 
@@ -532,10 +533,12 @@ a {
 
 .ingridient-center img {
     width: 100px;
+    height: 100px;
 }
 
 .additionally img {
     width: 100px;
+    height: 100px;
 }
 
 

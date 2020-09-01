@@ -7,8 +7,8 @@
         $city = $_POST['city'];
         $course = $_POST['course'];
         $from = 'From: HappyMan'; 
-        $to = 'lona.panasuk@gmail.com'; // send to this address
-        $subject = 'HappyMan'; //subject line in email
+        $to = 'ywis@i.ua'; 
+        $subject = 'HappyMan'; 
         $success_url = './form-ok.php';
 
         if (empty($city) || empty($department)) {
