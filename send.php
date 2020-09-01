@@ -6,6 +6,7 @@
         $department = $_POST['department'];
         $city = $_POST['city'];
         $course = $_POST['course'];
+        $headers = "Content-Type: text/html; charset=UTF-8";
         $from = 'From: HappyMan'; 
         $to = 'ywis@i.ua'; 
         $subject = 'HappyMan'; 
@@ -31,5 +32,5 @@
 
          
 
-        mail($to, $subject, $message); ?>
+        mail($to, $subject, $message, $headers); ?>
 
