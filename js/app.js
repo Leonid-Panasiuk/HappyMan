@@ -1,5 +1,7 @@
 new WOW().init();
 
+
+
 // Animate loader
 $(window).on('load', function() {
 
