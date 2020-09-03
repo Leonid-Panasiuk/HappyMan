@@ -630,6 +630,7 @@ a {
     text-transform: uppercase;
     text-align: center;
     word-spacing: -2px;
+    width: 450px;
 }
 
 #reception h4 {
@@ -644,17 +645,20 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column-reverse;
 }
 
 .reception-cols-left,
 .reception-cols-right {
     width: 50%;
+    
 }
+
 
 .reception-col {
     display: flex;
     align-items: center;
-    align-self: stretch;
+    justify-content: center;
 }
 
 .reception-col b {
@@ -1027,6 +1031,10 @@ select:focus {
 
     #reception {
         width: 100%;
+    }
+
+    #reception p {
+        width: auto;
     }
 
     #reception h4 {
