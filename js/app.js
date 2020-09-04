@@ -3,7 +3,7 @@ new WOW().init();
 // Animate loader
 $(window).on('load', function () {
 
-  $(".preload").fadeOut(2000);
+  $(".preload").fadeOut(1500);
 });
 
 // link platform detect
